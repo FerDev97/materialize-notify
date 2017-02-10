@@ -28,7 +28,7 @@
   "files": [
     "css",
     "sass",
-    "typings"
+    "typings",
     "materialize-notify.js",
     "materialize-notify.min.js"
   ],
