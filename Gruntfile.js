@@ -22,9 +22,6 @@ module.exports = function(grunt) {
 			default: {
 				src: 'materialize-notify.js'
 			}
-		},
-		exec: {
-			'meteor-test': 'node_modules/.bin/spacejam test-packages ./'
 		}
 	});
 
@@ -32,6 +29,5 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-exec');
 
-	grunt.registerTask('test', ['jshint', 'exec:meteor-test']);
 	grunt.registerTask('default', ['uglify']);
 };

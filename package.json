@@ -10,11 +10,10 @@
     "materialize-css",
     "jquery",
     "notify",
-    "notification",
     "notifications",
     "growl",
     "message",
-    "notice"
+    "alerts"
   ],
   "author": [
     "Vince Kronlein <vince@19peaches.com>",
@@ -25,13 +24,6 @@
     "url": "https://github.com/19peaches/materialize-notify/issues"
   },
   "main": "materialize-notify.js",
-  "files": [
-    "css",
-    "sass",
-    "typings",
-    "materialize-notify.js",
-    "materialize-notify.min.js"
-  ],
   "dependencies": {
     "jquery": "^2.1.4"
   },
@@ -40,10 +32,6 @@
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-uglify": "^0.4.0",
-    "grunt-exec": "^0.4.6",
-    "spacejam": "^1.1.4"
-  },
-  "scripts": {
-    "test": "grunt test"
+    "grunt-exec": "^0.4.6"
   }
 }
