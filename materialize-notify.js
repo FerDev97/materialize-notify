@@ -51,7 +51,7 @@
 		onClosed: null,
         onClick: null,
 		icon_type: 'class',
-		template: '<div class="col s11 m5 l4 alert alert-{0} alert-with-icon" data-notify="container"><i class="material-icons" data-notify="icon"></i><button type="button" aria-hidden="true" data-notify="dismiss" class="close waves-effect waves-light waves-circle"><i class="material-icons">close</i></button><h5 data-notify="title">{1}</h5><span data-notify="message"><p>{2}</p></span></div>'
+		template: '<div class="alert alert-{0} alert-with-icon" data-notify="container"><i class="material-icons" data-notify="icon"></i><button type="button" aria-hidden="true" data-notify="dismiss" class="close waves-effect waves-light waves-circle"><i class="material-icons">close</i></button><h5 data-notify="title">{1}</h5><span data-notify="message">{2}</span></div>'
 	};
 
 	String.format = function () {
