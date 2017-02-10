@@ -11,7 +11,9 @@ To come later ...
 
 ## Copyright and License
 The MIT License (MIT)
+
 Copyright (c) 2017 Vince Kronlein
+
 Original Copyright (c) 2015 Robert McIntosh (Bootstrap Notify)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
