@@ -225,11 +225,41 @@
 	color: rgba(0,0,0, 0.87);
 }
 
+.modal {
+
+	&.medium {
+		max-width: 35%;
+	}
+
+	&.small {
+		max-width: 20%;
+
+		h4 {
+			font-size: 1.65rem;
+		}
+	}
+}
+
 @media only screen and (max-width: 992px) {
 	.alert {
 		&.center[data-notify="container"] {
 			max-width: 90%;
 			margin: 2rem auto;
+		}
+	}
+
+	.modal {
+
+		&.medium {
+			max-width: 80%;
+		}
+
+		&.small {
+			max-width: 80%;
+
+			h4 {
+				font-size: 1.65rem;
+			}
 		}
 	}
 }
