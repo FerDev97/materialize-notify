@@ -1,6 +1,6 @@
 {
   "name": "materialize-notify",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This plugin adds \"Growl-like\" notifications to Materialize CSS.",
   "repository": {
     "type": "git",
