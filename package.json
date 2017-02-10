@@ -26,6 +26,9 @@
   },
   "main": "materialize-notify.js",
   "files": [
+    "css",
+    "sass",
+    "typings"
     "materialize-notify.js",
     "materialize-notify.min.js"
   ],
