@@ -34,7 +34,7 @@
 			from: "top",
 			align: "right"
 		},
-		offset: 20,
+		offset: 64,
 		spacing: 10,
 		z_index: 1031,
 		delay: 5000,
