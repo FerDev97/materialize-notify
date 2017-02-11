@@ -56,6 +56,7 @@
 		margin-top: -7px;
 		top: 5px;
 		position: relative;
+		color: inherit;
 	}
 
 	[data-notify="dismiss"] {
@@ -67,30 +68,9 @@
 		margin: 2rem auto;
 	}
 
-	&.alert-default {
-		background-color: white;
-		color: #555555;
-		border-radius: 3px;
-		box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.35);
-	}
-
 	a,
-	.alert-link,
-	&.alert-default a,
-	&.alert-default .alert-link {
+	.alert-link {
 		color: #555555;
-	}
-
-	&.alert-inverse {
-		background-color: #2e2e2e;
-		color: #fff;
-		border-radius: 3px;
-		box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.35);
-	}
-
-	&.alert-inverse a,
-	&.alert-inverse .alert-link {
-		color: #ffffff;
 	}
 
 	&.alert-primary {

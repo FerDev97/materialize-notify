@@ -18,8 +18,7 @@
   margin: 2rem auto;
 }
 
-.alert,
-.alert.alert-default {
+.alert {
   background-color: white;
   color: #555555;
   border-radius: 3px;
@@ -27,22 +26,8 @@
 }
 
 .alert a,
-.alert .alert-link,
-.alert.alert-default a,
-.alert.alert-default .alert-link {
+.alert .alert-link {
   color: #555555;
-}
-
-.alert.alert-inverse {
-  background-color: #2e2e2e;
-  color: #fff;
-  border-radius: 3px;
-  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.35);
-}
-
-.alert.alert-inverse a,
-.alert.alert-inverse .alert-link {
-  color: #ffffff;
 }
 
 .alert.alert-primary {
